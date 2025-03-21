@@ -1,0 +1,306 @@
+{
+  "id": "d00aeb9f-bab6-4c2b-aac3-c2ada53ce2cb",
+  "version": "2.0",
+  "name": "Henny_Parth_group3",
+  "url": "https://www.calculator.net/bmi-calculator.html",
+  "tests": [{
+    "id": "091d209e-0208-4318-8e8e-0bbee87c6a51",
+    "name": "test1",
+    "commands": [{
+      "id": "b39f0dca-f713-4633-b66e-bc8a3fdd7867",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.calculator.net/bmi-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "407c6d0d-5c21-49fe-9bb4-0cf690127dd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "840x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff8643e5-927f-48a7-b13b-65652a3ac102",
+      "comment": "",
+      "command": "click",
+      "target": "id=cage",
+      "targets": [
+        ["id=cage", "id"],
+        ["name=cage", "name"],
+        ["css=#cage", "css:finder"],
+        ["xpath=//input[@id='cage']", "xpath:attributes"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b7bbb6-7b12-4e0b-a8e7-89fe52a0eb1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cage",
+      "targets": [
+        ["id=cage", "id"],
+        ["name=cage", "name"],
+        ["css=#cage", "css:finder"],
+        ["xpath=//input[@id='cage']", "xpath:attributes"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "43"
+    }, {
+      "id": "430f15d4-0768-476c-9b4f-28abe84d4c0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cheightmeter",
+      "targets": [
+        ["id=cheightmeter", "id"],
+        ["name=cheightmeter", "name"],
+        ["css=#cheightmeter", "css:finder"],
+        ["xpath=//input[@id='cheightmeter']", "xpath:attributes"],
+        ["xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dcace89-7f04-4b6a-9aa3-9f97aa94781d",
+      "comment": "",
+      "command": "type",
+      "target": "id=cheightmeter",
+      "targets": [
+        ["id=cheightmeter", "id"],
+        ["name=cheightmeter", "name"],
+        ["css=#cheightmeter", "css:finder"],
+        ["xpath=//input[@id='cheightmeter']", "xpath:attributes"],
+        ["xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "179"
+    }, {
+      "id": "d3f7a1d2-0f6c-4d9d-b2c2-7f09e760f186",
+      "comment": "",
+      "command": "click",
+      "target": "id=ckg",
+      "targets": [
+        ["id=ckg", "id"],
+        ["name=ckg", "name"],
+        ["css=#ckg", "css:finder"],
+        ["xpath=//input[@id='ckg']", "xpath:attributes"],
+        ["xpath=//tr[@id='metricweight']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4aff757-fa8a-4e0f-b285-9282b96513a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ckg",
+      "targets": [
+        ["id=ckg", "id"],
+        ["name=ckg", "name"],
+        ["css=#ckg", "css:finder"],
+        ["xpath=//input[@id='ckg']", "xpath:attributes"],
+        ["xpath=//tr[@id='metricweight']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "89"
+    }, {
+      "id": "a29f4bb5-ed15-4f0b-b07e-03fd099787fa",
+      "comment": "",
+      "command": "click",
+      "target": "name=x",
+      "targets": [
+        ["name=x", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='x']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[4]/div[2]/table/tbody/tr/td/form/table[4]/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cfa2b90-023f-4002-9972-aeb55f4ba021",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Clear']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div[2]/table/tbody/tr/td/form/table[4]/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d80f9556-5f9f-492e-8660-8ca41081258b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bigtext > b",
+      "targets": [
+        ["css=.bigtext > b", "css:finder"],
+        ["xpath=//div[@id='content']/div[4]/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'BMI = 27.8 kg/m2')]", "xpath:innerText"]
+      ],
+      "value": "BMI = 27.8 kg/m2 "
+    }]
+  }, {
+    "id": "9b04a921-18dd-4d85-9409-a65346b0b3ff",
+    "name": "test2 ",
+    "commands": [{
+      "id": "8a556aca-3dc7-4091-94ca-38bf9926547c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.calculator.net/bmi-calculator.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "172332bb-af30-4e70-8a6e-d712c8fd92eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba1e071e-ca9c-40f4-bfe3-6f3788b7fe83",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.topNavAbs > a:nth-child(4)",
+      "targets": [
+        ["css=.topNavAbs > a:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Other')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/other-calculator.html')])[2]", "xpath:href"],
+        ["xpath=//div[6]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "257521e7-1926-4729-b68a-5bc4bc252e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cbcontainer:nth-child(2) > .rbmark",
+      "targets": [
+        ["css=.cbcontainer:nth-child(2) > .rbmark", "css:finder"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr[2]/td[2]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a0aa9a-8e46-4782-b5c9-d9ed48db20ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=cage",
+      "targets": [
+        ["id=cage", "id"],
+        ["name=cage", "name"],
+        ["css=#cage", "css:finder"],
+        ["xpath=//input[@id='cage']", "xpath:attributes"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26884587-357b-4451-9e19-7960ad518039",
+      "comment": "",
+      "command": "type",
+      "target": "id=cage",
+      "targets": [
+        ["id=cage", "id"],
+        ["name=cage", "name"],
+        ["css=#cage", "css:finder"],
+        ["xpath=//input[@id='cage']", "xpath:attributes"],
+        ["xpath=//table[@id='calinputtable']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "50"
+    }, {
+      "id": "f0892295-a30e-4e77-b0da-bb11fd3762e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cheightmeter",
+      "targets": [
+        ["id=cheightmeter", "id"],
+        ["name=cheightmeter", "name"],
+        ["css=#cheightmeter", "css:finder"],
+        ["xpath=//input[@id='cheightmeter']", "xpath:attributes"],
+        ["xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e03f5e-e357-49c1-bf62-28bc999d13b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=cheightmeter",
+      "targets": [
+        ["id=cheightmeter", "id"],
+        ["name=cheightmeter", "name"],
+        ["css=#cheightmeter", "css:finder"],
+        ["xpath=//input[@id='cheightmeter']", "xpath:attributes"],
+        ["xpath=//table[@id='metricheightweight']/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": "200"
+    }, {
+      "id": "8bb79b08-1802-4ba5-a83a-e7f31adb0a11",
+      "comment": "",
+      "command": "click",
+      "target": "id=ckg",
+      "targets": [
+        ["id=ckg", "id"],
+        ["name=ckg", "name"],
+        ["css=#ckg", "css:finder"],
+        ["xpath=//input[@id='ckg']", "xpath:attributes"],
+        ["xpath=//tr[@id='metricweight']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f4c7e9e-9ffe-4232-a6db-0eb37b4bc16a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ckg",
+      "targets": [
+        ["id=ckg", "id"],
+        ["name=ckg", "name"],
+        ["css=#ckg", "css:finder"],
+        ["xpath=//input[@id='ckg']", "xpath:attributes"],
+        ["xpath=//tr[@id='metricweight']/td[2]/input", "xpath:idRelative"],
+        ["xpath=//table[3]/tbody/tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "70"
+    }, {
+      "id": "21e8f7ba-fe99-40b3-82dd-90d7e0980118",
+      "comment": "",
+      "command": "click",
+      "target": "name=x",
+      "targets": [
+        ["name=x", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='x']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[4]/div[2]/table/tbody/tr/td/form/table[4]/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adfa4de2-8051-48f3-8695-cf0ed7e6a15d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.bigtext > b",
+      "targets": [
+        ["css=.bigtext > b", "css:finder"],
+        ["xpath=//div[@id='content']/div[4]/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'BMI = 17.5 kg/m2')]", "xpath:innerText"]
+      ],
+      "value": "BMI = 17.5 kg/m2"
+    }]
+  }],
+  "suites": [{
+    "id": "8aef2a37-e2e7-4128-80c8-ecf378cd43f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.calculator.net/", "https://www.calculator.net/bmi-calculator.html"],
+  "plugins": []
+}
